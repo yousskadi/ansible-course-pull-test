@@ -13,5 +13,5 @@
     - name: install apache2
       ansible.builtin.apt:
         name: apache2
-        state: lastes
+        state: latest
       when: ansible_distribution == "Ubuntu"
